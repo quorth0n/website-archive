@@ -1,0 +1,3 @@
+*.swp
+terminal_home/*
+make_fs.py

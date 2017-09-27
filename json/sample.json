@@ -1,0 +1,39 @@
+{
+   "type": "dir", 
+   "name": "~", 
+   "contents": [
+      {
+         "type": "text", 
+         "name": "welcome.txt", 
+         "contents": "Hi all, welcome to my website! It's based off a bash terminal, sorry zsh fanboys. My name is Liam O'Flynn, and I'm a tech enthusiast in the San Francisco Bay Area, and I currently work as CTO at YingaTech, UK, Ltd. and, of course, for myself. Check out ~/links/github to see some of my personal projects. This website will serve as a hub for my personal projects, general information, and a blog at some point.\n"
+      }, 
+      {
+         "type": "dir", 
+         "name": "links", 
+         "contents": [
+            {
+               "type": "exec", 
+               "name": "YingaTech", 
+               "contents": "https://yingatech.com/\n",
+               "description":"My company's website. I switch proejcts within it pretty often, and hold the position of CTO."
+            }, 
+            {
+               "type": "exec", 
+               "name": "GitHub", 
+               "contents": "https://github.com/whirish\n",
+               "description": "My github page. Most of my personal projects go here."
+            }
+         ]
+      }, 
+      {
+         "type": "text", 
+         "name": "skills.txt", 
+         "contents": "I'm a full stack developer, but love to step outside my comfort zone and try out new frameworks or languages. I consider myself fluent in Python, HTML/CSS,JavaScript, and, while I avoid it if possible, PHP. I work a bit with C and Go on occasion. \n"
+      }, 
+      {
+         "type": "text", 
+         "name": "contact.txt", 
+         "contents": "I don't use social media, but feel free to contact me at lpoflynn (at) airmail (dot) cc. My PGP can be found at ~/links/pgp.txt\n"
+      }
+   ]
+}
