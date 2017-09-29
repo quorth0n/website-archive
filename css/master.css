@@ -1,0 +1,54 @@
+body {
+    background: url(../img/4.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	color: /*#ccc*/pink;
+    font-family: monospace;
+	font-size: 1em;
+	margin: 0 auto;
+	max-width: 60em;
+	padding: 0 1em;
+}
+
+/* Style the header at the top of the page */
+
+header {
+	border-style: dotted;
+	border-width: 0 0 .1em 0;
+	font-size: .66em;
+    color: lime;
+}
+
+/* This makes all links bold */
+
+a {
+	font-weight: bold;
+    color: lightblue;
+}
+
+/* Places a little space below an unordered list item */
+
+ul li {
+	padding: 0 0 .33em 0;
+}
+
+/* Styling tables and code blocks */
+
+table, th, td {
+	border: .1em solid black;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+code {
+	font-weight: bold;
+}
+
+/* Style the footer at the bottom of the page */
+
+footer {
+	border-style: dotted;
+	border-width: .1em 0 0 0;
+}

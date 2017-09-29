@@ -19,6 +19,22 @@ body {
    background: black;
 }
 
+.banner {
+    position:absolute;
+    top:0px;
+    height:5%;
+    width:901px;
+    background-color:yellow;
+    color:white;
+}
+
+.jsterm {
+    position:absolute;
+    height:95%;
+    bottom:0px;
+    border: 1px solid grey;
+}
+
 .jsterm a {
    color: #E0E0E0;
    text-decoration: none;
