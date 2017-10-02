@@ -19,13 +19,14 @@ header {
 	border-width: 0 0 .1em 0;
 	font-size: .66em;
     color: lime;
+    text-align:right;
 }
 header>img {
-    right:0px;
-    height;
+    height:40px;
 }
 header>h1{
     display:inline;
+    float: left;
 }
 
 /* This makes all links bold */
@@ -66,7 +67,7 @@ footer {
     left:15%;
 }
 
-.poster img {
+.posters img {
     width: 225px;
-    height: 350px;
+    height: 340px;
 }

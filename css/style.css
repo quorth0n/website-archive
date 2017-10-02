@@ -6,17 +6,18 @@ body {
 }
 
 .banner {
-    position:absolute;
+    position:fixed;
     top:0px;
-    height:5%;
+    height:20px;
     width:900px;
     background-color:yellow;
-    color:white;
+    color:black;
+    z-index:100;
 }
 
 .jsterm {
     position:absolute;
-    height:95%;
+    height:calc(100% - 20px);
     bottom:0px;
     /*border: 1px solid grey;*/
 }
