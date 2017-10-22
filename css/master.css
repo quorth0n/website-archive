@@ -4,7 +4,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-	color: /*#ccc*/pink;
+	color: /*#ccc*/#b775d4;
     font-family: monospace;
 	font-size: 1em;
 	margin: 0 auto;
@@ -18,7 +18,7 @@ header {
 	border-style: dotted;
 	border-width: 0 0 .1em 0;
 	font-size: .66em;
-    color: lime;
+    color: red;
     text-align:right;
 }
 header>img {
@@ -33,7 +33,7 @@ header>h1{
 
 a {
 	font-weight: bold;
-    color: lightblue;
+    color: /*#ccc*/#75cad4;
 }
 
 /* Places a little space below an unordered list item */
@@ -46,7 +46,7 @@ ul li {
 
 table, th, td {
 	border: .1em solid black;
-	border-collapse: collapse;
+    background:black;
 	margin: 0 auto;
 }
 
@@ -67,7 +67,29 @@ footer {
     left:15%;
 }
 
+.home {
+    width:50px;
+}
+
+.posters-wrapper {
+    overflow-x:scroll;
+}
+
+.posters {
+    width: 50px;
+}
+
+.posters td, .posters th  {
+    width:200px;
+    text-align:center;
+}
+
 .posters img {
     width: 225px;
     height: 340px;
+}
+
+hr {
+    border-color:/*#ccc*/#75cad4; 
+    border-style: dotted;
 }
