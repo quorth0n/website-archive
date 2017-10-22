@@ -1,0 +1,17 @@
+        body { font:16px Calibri;}
+        table { border-top: 3px solid grey; }
+        td, th {
+            margin:0;
+            border:3px solid grey; 
+            border-top-width:0px; 
+
+        }
+        div { 
+            width: 600px; 
+            overflow-x:scroll;  
+            margin-left:5em; 
+            overflow-y:visible;
+            padding-bottom:1px;
+        }
+        .headcol:before {content: 'Row ';}
+        .long { background:yellow; letter-spacing:1em; }
