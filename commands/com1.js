@@ -1,4 +1,3 @@
-
 var COMMANDS = COMMANDS || {};
 
 COMMANDS.cat =  function(argv, cb) {

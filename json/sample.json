@@ -22,9 +22,42 @@
                "name": "GitHub", 
                "contents": "https://github.com/whirish\n",
                "description": "My github page. Most of my personal projects go here."
+            },
+            {
+               "type": "exec", 
+               "name": "MAL", 
+               "contents": "https://myanimelist.net/profile/whirish\n",
+               "description": "My MAL profile, I like sharing my opinions" 
             }
+
          ]
       }, 
+      {
+         "type": "dir", 
+         "name": "projects", 
+         "contents": [
+            {
+               "type": "exec", 
+               "name": "Collab.Center", 
+               "contents": "http://collab.center/\n",
+               "description": "Collaborative coding in real-time" 
+            }, 
+            {
+               "type": "exec", 
+               "name": "KingdomMaps", 
+               "contents": "https://kingdommaps.com\n",
+               "description": "An interactive, historical timeline of the world (help wanted, check repo)"
+            },
+            {
+               "type": "exec", 
+               "name": "Tri-Valley Buses app", 
+               "contents": "https://github.com/whirish/Tri-Valley-Buses",
+               "description": "Buses app, tracks locations of Wheels buses"
+            }
+
+         ]
+      }, 
+
       {
          "type": "text", 
          "name": "skills.txt", 
